@@ -1,7 +1,11 @@
+import math
 from math import *
 op = input("Type of operation: ")
-n1 = float(input("First number: "))
-if op == "sqrt":
+if op == "!":
+    n1 = int(input("First number: "))
+    r = factorial(n1)
+elif op == "sqrt":
+    n1 = float(input("First number: "))
     r = sqrt(n1)
 else:
     n2 = float(input("Second number: "))
